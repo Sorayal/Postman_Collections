@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "0ad29344-d870-447b-a3ba-5dbc4dcc647c",
+		"name": "Spark Webserver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17119612"
+	},
+	"item": [
+		{
+			"name": "Get my name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{schema}}{{host}}{{port_spark}}/my_name",
+					"host": [
+						"{{schema}}{{host}}{{port_spark}}"
+					],
+					"path": [
+						"my_name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{schema}}{{host}}{{port_spark}}/hello",
+					"host": [
+						"{{schema}}{{host}}{{port_spark}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
